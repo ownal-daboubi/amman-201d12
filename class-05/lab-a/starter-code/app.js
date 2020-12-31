@@ -113,8 +113,13 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function multiplyArray(multArr) { //eslint-disable-line
+    var testArray = [2, 3, 4]; //eslint-disable-line
+    function multiplyArray([a,s,d]) { //eslint-disable-line
+    var r = multiply(a,s)[0];
+    var t = multiply(r,d)[0];
+    return [t ,"The numbers " + a + "," + s + "," + d + " have a product of " + t + "." ];
+    }
 
-}
 
 // Here is the test for multiplyArray(); uncomment it to run it
 // testMultiplyArray(testArray);
